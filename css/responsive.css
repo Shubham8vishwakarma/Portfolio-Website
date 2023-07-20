@@ -1,0 +1,229 @@
+        /* -------- header and home section responsive ------- */
+        @media (max-width: 355px) {
+            .leftbio-col img {
+                align-items: center;
+            }
+        }
+
+        @media (max-width: 497px) {
+
+            .about-content .col {
+                align-items: center;
+                width: 100%;
+            }
+
+            .home-left-col button {
+                width: 100px;
+                height: 40px;
+                border: 1px solid #fff;
+                font-size: 20px;
+                font-weight: 400;
+
+            }
+
+
+            .about-content {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            html,
+            body {
+                min-height: 100vh;
+                width: 100vw;
+                overflow-x: hidden;
+            }
+
+        }
+
+        @media (max-width: 1000px) {
+
+            html,
+            body {
+                min-height: 100vh;
+                width: 100vw;
+                overflow-x: hidden;
+            }
+
+            html {
+                font-size: 14px;
+            }
+
+            .about-width .title {
+                font-size: 28px;
+            }
+
+            .skills .title {
+                font-size: 28px;
+            }
+
+            .portfolio .title {
+                font-size: 28px;
+            }
+
+            .contact .title {
+                font-size: 28px;
+            }
+
+
+
+            .home {
+                padding: 0 50px 0 50px;
+            }
+
+            .about-content {
+                padding: 0 50px 0 50px;
+            }
+        }
+
+        @media (max-width: 998px) {
+
+            .home {
+                padding: 0 50px 0 50px;
+            }
+
+            .about-content {
+                padding: 0 50px 0 50px;
+            }
+        }
+
+        @media (max-width: 768px) {
+
+
+            .home {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .home-left-col {
+                position: relative;
+                top: 100px;
+            }
+
+            .home-right-col img {
+                display: none;
+            }
+
+            header {
+                min-height: 500px;
+            }
+        }
+
+        @media (max-width: 698px) {
+            .home-left-col .text-1 {
+                font-size: 1.5rem;
+            }
+
+            .home-left-col .text-2 {
+                font-size: 2.5rem;
+            }
+
+            .home-left-col .text-3 {
+                font-size: 1.5rem;
+            }
+        }
+
+        /*  -------- About section here -------- */
+
+        @media (max-width: 400px) {
+            .resource {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .resource .hire {
+                margin-bottom: 25px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .about-content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .about-content .leftbio-col {
+                margin-bottom: 20px;
+            }
+
+            .leftbio-col img {
+                width: 100%;
+            }
+
+            .rightbio-col h1 {
+                font-size: 1.6rem;
+                letter-spacing: .5px;
+            }
+
+            .rightbio-col .develop {
+                font-size: 20px;
+
+            }
+
+            .rightbio-col p {
+                font-size: 14px;
+            }
+        }
+
+        /* ---------- skill section here ---------- */
+
+        @media (max-width: 768px) {
+            .skills-content {
+                flex-direction: column;
+                align-items: center;
+                padding: 0 50px 0 50px;
+            }
+
+            .skills-content .column {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+
+        /* ------------ portfolio section here ---------- */
+
+        @media (max-width: 768px) {
+            .projects {
+                flex-direction: column;
+                align-items: center;
+                padding: 0;
+            }
+
+            .portfolio-content .projects .project {
+                width: 100%;
+                margin-bottom: 40px;
+            }
+
+            .project img {
+                width: 100%;
+            }
+        }
+
+        /* ----------- contact section here --------- */
+
+        @media (max-width: 768px) {
+            .contact-content {
+                display: flex;
+                padding: 0 20px 0 20px;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+
+
+        }
+
+        /* ------ footer section here ----- */
+
+        @media (max-width: 768px) {
+            .footer-content {
+                flex-direction: column;
+                align-items: center;
+                padding: 0 20px 0 20px;
+            }
+
+            .footer-left {
+                margin-bottom: 20px;
+            }
+        }

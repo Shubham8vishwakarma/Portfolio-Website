@@ -1,0 +1,114 @@
+@media (max-width: 390px) {
+
+    body,
+    html {
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .detail p {
+        text-align: center;
+    }
+
+
+    .landline {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .full-wrapper .content h1 {
+        font-size: 28px;
+        text-align: center;
+
+    }
+
+    .full-wrapper .content p {
+        text-align: center;
+        font-size: 14px;
+
+    }
+
+    .full-wrapper .content button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .section .head h2 {
+        font-size: 24px;
+    }
+
+
+    .service h3 {
+        font-size: 23px;
+
+    }
+
+    .service p {
+        font-size: 14px;
+        letter-spacing: .5px;
+
+    }
+
+
+    .restore h4 {
+        font-size: 24px;
+
+    }
+
+    .intall h4 {
+        font-size: 16px;
+    }
+
+    .intall p {
+        font-size: 13px;
+    }
+
+    .main h2 {
+        font-size: 20px;
+    }
+
+    .main p {
+        font-size: 14px;
+    }
+
+    .main img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .testimonial-bg .test h2 {
+        font-size: 24px;
+    }
+
+    .view p {
+        font-size: 14px;
+    }
+
+    .view h3 {
+        font-size: 20px;
+    }
+
+    .quote h3 {
+        font-size: 18px;
+    }
+
+    .copyright p {
+        text-align: center;
+    }
+
+    .text-right ul,
+    li,
+    a {
+        text-align: center;
+    }
+
+
+}
